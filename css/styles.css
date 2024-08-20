@@ -103,6 +103,21 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+@media (max-width: 768px) {
+  .card-body .row {
+      flex-direction: column-reverse;
+  }
+
+  .card-body img {
+      width: 100%;
+      height: auto;
+  }
+
+  .card-body .p-5 {
+      padding: 1.5rem !important;
+  }
+}
+
 
 hr {
   margin: 1rem 0;
